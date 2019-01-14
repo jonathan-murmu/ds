@@ -10,7 +10,7 @@ from utils import (
     get_sisters, get_sister_in_law, get_sons
 )
 
-# Relatioinship Mapper
+# Relatioinship Mapper- Maps particular relation to coresponding helper function.
 RELATION = {
     "Paternal uncle": get_paternal_uncle,
     "Maternal uncle": get_maternal_uncle,
@@ -32,11 +32,10 @@ RELATION = {
 class Generation(object):
     def __init__(self, family=None):
         self.root_family = family
-        # has all the names of the person and to which family he/she belongs
-        self.person_dict = {}
         self.size = 0 # no. of families in this generations
     
     def get_family(self, name):
+        """Use the PERSON_ADDRESS dictionary to efficiently get the family object"""
         try:
             return PERSON_ADDRESS[name]
         except:
@@ -66,6 +65,7 @@ class Generation(object):
         self.size += 1
 
     def relationship(self, person_name=None, relation=None):
+        """Given the person name and relation, get his/her relatives."""
         family = self.get_family(person_name)
         if not family:
             return "No family found for the name: {0}".format(person_name)

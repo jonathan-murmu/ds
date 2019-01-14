@@ -4,6 +4,7 @@ from generation import Generation
 from person import Person
 
 class DemoData(object):
+  """Creates demo data based on Shan-Anga generation hierarchy"""
   def __init__(self):
     self.shan = Person(name='Shan', gender=MALE)
     self.anga = Person(name='Anga', gender=FEMALE)
