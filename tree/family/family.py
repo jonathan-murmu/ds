@@ -23,8 +23,8 @@ class Family(object):
     def update_address(self, name, address):
         """Update family address.
         
-        Whenever a person in the family is added the family. The global PERSON_ADDRES is updated.
-        This PERSON_ADDRESS is a dictionary which help efficient finding of the Family Node in the 
+        Whenever a person is added in the family. The global PERSON_ADDRES is updated.
+        This PERSON_ADDRESS is a dictionary which help in efficient finding of the Family Node in the 
         generation tree."""
         PERSON_ADDRESS.update({name: address})
 

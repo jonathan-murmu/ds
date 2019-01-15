@@ -30,6 +30,11 @@ RELATION = {
 }
 
 class Generation(object):
+    """Generation Class.
+
+    Tree data structure is used to implemented the generation hierarchy. With root_family holding 
+    the reference to family node.
+    """
     def __init__(self, family=None):
         self.root_family = family
         self.size = 0 # no. of families in this generations
@@ -42,8 +47,9 @@ class Generation(object):
             return None # the person does not have a family.
     
     def add_child_family(self, parent_name=None, child_family=None):
-        """Add a child family in the Generation Tree.
+        """Add a child family to the Generation Tree.
         
+        The family is node is already created. The reference is the family node is added in the tree.
         :param: parent_name- main member name of the parent in which to add the child family.
         :param: child_family- the familly object of the child."""
         # if the generation tree is empty
@@ -69,6 +75,8 @@ class Generation(object):
         family = self.get_family(person_name)
         if not family:
             return "No family found for the name: {0}".format(person_name)
+        
+        # dynamically call the corresponding utility function based on relation
         return RELATION[relation](person_name, relation, family)
 
 

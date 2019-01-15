@@ -4,7 +4,7 @@ from constants import FEMALE, MALE
 
 
 def is_main_member(func):
-    """Docorator to check if the person is the main member or blood son/daughter or not."""
+    """Docorator to check if the person is the blood son/daughter i.e. the main member or not."""
     def _is_main_member(person_name, relation, family):
         if family.main_member.name != person_name:
             return "{0} does not have own {1}.".format(person_name, relation.lower())
@@ -107,7 +107,8 @@ def get_grand_daughter(person_name, relation, family):
         if not child.child_family:
             continue
         for g_child in child.child_family:
-            g_children.append(g_child.main_member.name)
+            if g_child.main_member.gender == FEMALE:
+                g_children.append(g_child.main_member.name)
 
     return g_children
 @is_main_member

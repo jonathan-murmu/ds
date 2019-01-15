@@ -4,8 +4,9 @@ from generation import Generation
 from person import Person
 
 class DemoData(object):
-  """Creates demo data based on Shan-Anga generation hierarchy"""
+  """Creates demo data based on Shan-Anga generation hierarchy."""
   def __init__(self):
+    # Person in the generation.
     self.shan = Person(name='Shan', gender=MALE)
     self.anga = Person(name='Anga', gender=FEMALE)
 
@@ -46,6 +47,7 @@ class DemoData(object):
     
     self.shan_family = Family(main_member=self.shan, spouse=self.anga)
 
+    # Families in the Generation.
     self.ish_family = Family(main_member=self.ish)
     self.chit_family = Family(main_member=self.chit, spouse=self.ambi)
     self.vich_family = Family(main_member=self.vich, spouse=self.lika)
@@ -70,6 +72,7 @@ class DemoData(object):
 
     self.misa_family = Family(main_member=self.misa)
 
+    # Generation
     self.g = Generation()
     self.g.add_child_family(child_family=self.shan_family)
     self.g.add_child_family(parent_name='Shan', child_family=self.ish_family)
@@ -97,4 +100,5 @@ class DemoData(object):
     self.g.add_child_family(parent_name='Saayan', child_family=self.misa_family)
   
   def relationship(self, person_name=None, relation=None):
+    """Get the relatives based on person name and relation."""
     return self.g.relationship(person_name=person_name, relation=relation)
