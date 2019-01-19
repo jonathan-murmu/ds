@@ -78,6 +78,3 @@ class Generation(object):
         
         # dynamically call the corresponding utility function based on relation
         return RELATION[relation](person_name, relation, family)
-
-
-
