@@ -1,13 +1,11 @@
 from .relation import Relation
 from constants import FEMALE, MALE
+from .parent import Parent
 
 
-class Mother(Relation):
+class Mother(Relation, Parent):
       """Get the mother of the main member in the family."""
       
       @Relation.is_main_member
       def get_relatives(self, person_name, relation, family):
-            if family.parent.main_member.gender == FEMALE:
-                return family.parent.main_member.name
-            else:
-                return family.parent.spouse.name
+            return self.get_parent(family, FEMALE)

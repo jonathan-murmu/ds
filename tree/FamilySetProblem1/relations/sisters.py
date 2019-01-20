@@ -1,18 +1,11 @@
 from .relation import Relation
-from constants import FEMALE, MALE
+from constants import FEMALE
+from .sibling import Sibling
 
 
-class Sisters(Relation):
+class Sisters(Relation, Sibling):
       """Get the sistes of the main member in the family."""
       
       @Relation.is_main_member
       def get_relatives(self, person_name, relation, family):
-            sibling_families = family.parent.child_family
-            sisters = []
-            for sibling in sibling_families:
-                # skip himself
-                if sibling == family:
-                    continue
-                if sibling.main_member.gender == FEMALE:
-                    sisters.append(sibling.main_member.name)
-            return sisters
+            return self.get_sibling(family, FEMALE)
