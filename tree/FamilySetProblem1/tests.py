@@ -69,6 +69,12 @@ class TestGeneration(unittest.TestCase):
       self.assertEqual(
         self.demo.relationship(person_name='Shan', relation='Grand daughter'), ['Chika', 'Satvy'],
         'Incorrect Paternal uncle implementation')
+      self.assertEqual(
+        self.demo.relationship(person_name='Satvy', relation='Cousins'), ['Drita', 'Vrita', 'Vila', 'Chika', 'Savya', 'Saayan'],
+        'Incorrect Cousin implementation')
+      self.assertEqual(
+        self.demo.relationship(person_name='Ish', relation='Cousins'), "Ish does not have own cousins.",
+        'Incorrect Cousin implementation')
 
 # Run Tests
 def suite():

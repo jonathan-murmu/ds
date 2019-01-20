@@ -1,33 +1,7 @@
+import constants
 from family import PERSON_ADDRESS
-from utils import (
-    get_brothers, get_brother_in_law,
-    get_children, get_cousins,
-    get_daughters,
-    get_father,
-    get_grand_daughter,
-    get_maternal_aunt, get_maternal_uncle, get_mother,
-    get_paternal_aunt, get_paternal_uncle,
-    get_sisters, get_sister_in_law, get_sons
-)
+from relationfactory import RelationFactory
 
-# Relatioinship Mapper- Maps particular relation to coresponding helper function.
-RELATION = {
-    "Paternal uncle": get_paternal_uncle,
-    "Maternal uncle": get_maternal_uncle,
-    "Paternal aunt":get_paternal_aunt,
-    "Maternal aunt": get_maternal_aunt,
-    "Sister-in law": get_sister_in_law,
-    "Brother-in law": get_brother_in_law,
-    "Cousins": get_cousins,
-    "Father": get_father,
-    "Mother": get_mother,
-    "Children": get_children,
-    "Sons": get_sons,
-    "Daughters": get_daughters,
-    "Brothers": get_brothers,
-    "Sisters": get_sisters,
-    "Grand daughter": get_grand_daughter
-}
 
 class Generation(object):
     """Generation Class.
@@ -77,4 +51,25 @@ class Generation(object):
             return "No family found for the name: {0}".format(person_name)
         
         # dynamically call the corresponding utility function based on relation
-        return RELATION[relation](person_name, relation, family)
+        # return RELATION[relation](person_name, relation, family)
+        RELATION = {
+            constants.BROTHERS: constants.BROTHERS_CLASS,
+            constants.MOTHER: constants.MOTHER_CLASS,
+            constants.FATHER: constants.FATHER_CLASS,
+            constants.SONS: constants.SONS_CLASS,
+            constants.SISTERS: constants.SISTERS_CLASS,
+            constants.DAUGHTERS: constants.DAUGHTERS_CLASS,
+            constants.CHILDREN: constants.CHILDREN_CLASS,
+            constants.BROTHER_IN_LAW: constants.BROTHER_IN_LAW_CLASS,
+            constants.SISTER_IN_LAW: constants.SISTER_IN_LAW_CLASS,
+            constants.MATERNAL_AUNT: constants.MATERNAL_AUNT_CLASS,
+            constants.MATERNAL_UNCLE: constants.MATERNAL_UNCLE_CLASS,
+            constants.PATERNAL_AUNT: constants.PATERNAL_AUNT_CLASS,
+            constants.PATERNAL_UNCLE: constants.PATERNAL_UNCLE_CLASS,
+            constants.GRAND_DAUGHTER: constants.GRAND_DAUGHTER_CLASS,
+            constants.COUSINS: constants.COUSINS_CLASS
+        }
+        relation_name = relation
+        factory = RelationFactory()
+        relation = factory.create_instance(RELATION[relation])
+        return relation.get_relatives(person_name, relation_name, family)
