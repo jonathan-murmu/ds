@@ -1,21 +1,9 @@
 from collections import deque
 
 from .constants import (
-    PATERNAL_UNCLE,
-    MATERNAL_UNCLE,
-    PATERNAL_AUNT,
-    MATERNAL_AUNT,
-    SISTER_IN_LAW,
-    BROTHER_IN_LAW,
-    COUSINS,
-    FATHER,
-    MOTHER,
-    CHILDREN,
-    SONS,
-    DAUGHTERS,
-    BROTHERS,
-    SISTERS,
-    GRAND_DAUGHTER
+    PATERNAL_UNCLE, MATERNAL_UNCLE, PATERNAL_AUNT, MATERNAL_AUNT,
+    SISTER_IN_LAW, BROTHER_IN_LAW, COUSINS, FATHER, MOTHER,
+    CHILDREN, SONS, DAUGHTERS, BROTHERS, SISTERS, GRAND_DAUGHTER
 )
 from .demo_data import DemoData
 from .person import Person
@@ -95,7 +83,6 @@ class Generation(object):
           print("Wrong choice of relation! Please try again.")
           return True
         print(self.demo.relationship(person_name=person_name.title(), relation=relation))
-        print("Relation Found")
         return True
     
     def exit(self):

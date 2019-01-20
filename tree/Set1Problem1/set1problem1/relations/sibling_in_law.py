@@ -1,4 +1,5 @@
 class SiblingInLaw(object):
+    """Get the siblings in law."""
     def get_sibling_in_law(self, person_name, relation, family, gender):
         # if he/she is not the main member, only then he/she has "in-laws".
         if family.main_member.name != person_name:

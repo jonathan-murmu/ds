@@ -1,6 +1,7 @@
 import abc
 
 class Relation(metaclass=abc.ABCMeta):
+    """Relation Abstract Class"""
 
     @abc.abstractmethod
     def get_relatives(self, person_name, relation, family):

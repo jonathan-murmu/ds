@@ -144,17 +144,3 @@ class TestRelationFactory(unittest.TestCase):
         self.assertEqual(
             type(self.relation_factory.create_instance(wrong_class)) == relations.NullRelation, True,
             'Incorrect load_relation() MaternalUncle implementation')
-
-
-
-# # Run Tests
-# def suite():
-#     suite = unittest.TestSuite()
-#     suite.addTest(TestGeneration('test_relationship'))
-
-#     return suite
-
-
-# if __name__ == '__main__':
-#     runner = unittest.TextTestRunner()
-#     runner.run(suite())

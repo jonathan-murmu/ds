@@ -3,7 +3,7 @@ from ..constants import FEMALE, MALE
 
 
 class Cousins(Relation):
-        """Get the grand daughters of the main member in the family."""
+        """Get the cousins of the main member in the family."""
 
         @Relation.is_main_member
         def get_relatives(self, person_name, relation, family):

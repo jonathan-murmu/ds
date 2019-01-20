@@ -1,7 +1,7 @@
 from ..constants import FEMALE
 
 class Aunt(object):
-    """Get uncle."""
+    """Get Aunt."""
     def get_aunt(self, person_name, relation, family, gender):
         # the mother is the main member, only then she has maternal aunt
         if family.parent.main_member.gender == gender:

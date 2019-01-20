@@ -39,7 +39,7 @@ class Generation(object):
         if not parent_family:
             return "No family found for the name: {0}".format(parent_name)
         
-        
+        # add the child family
         child_family.parent = parent_family
         parent_family.child_family.append(child_family)
         self.size += 1
@@ -47,11 +47,12 @@ class Generation(object):
     def relationship(self, person_name=None, relation=None):
         """Given the person name and relation, get his/her relatives."""
         family = self.get_family(person_name)
+        
         if not family:
             return "No family found for the name: {0}".format(person_name)
         
-        # dynamically call the corresponding utility function based on relation
-        # return RELATION[relation](person_name, relation, family)
+        # Use Factory Pattern to call the particular Relation class
+        # key-relation name, value- relation class name
         RELATION = {
             constants.BROTHERS: constants.BROTHERS_CLASS,
             constants.MOTHER: constants.MOTHER_CLASS,
@@ -70,6 +71,8 @@ class Generation(object):
             constants.COUSINS: constants.COUSINS_CLASS
         }
         relation_name = relation
-        factory = RelationFactory()
+        factory = RelationFactory()  # Factory Class
+        # create the specific Relation class instance, for the given relation
         relation = factory.create_instance(RELATION[relation])
+        # get the relatives
         return relation.get_relatives(person_name, relation_name, family)

@@ -4,7 +4,7 @@ from .sibling import Sibling
 
 
 class Brothers(Relation, Sibling):
-      """Get the brother of the main member in the family."""
+      """Get the brothers of the main member in the family."""
       
       @Relation.is_main_member
       def get_relatives(self, person_name, relation, family):
