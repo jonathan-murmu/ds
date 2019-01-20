@@ -8,4 +8,7 @@ class Father(Relation, Parent):
       
       @Relation.is_main_member
       def get_relatives(self, person_name, relation, family):
-            return self.get_parent(family, MALE)
+            try:
+                return self.get_parent(family, MALE)
+            except:
+                return "{0} does not have own {1}.".format(person_name, relation.lower())

@@ -144,3 +144,106 @@ class TestRelationFactory(unittest.TestCase):
         self.assertEqual(
             type(self.relation_factory.create_instance(wrong_class)) == relations.NullRelation, True,
             'Incorrect load_relation() MaternalUncle implementation')
+
+
+class TestRelation(unittest.TestCase):
+    """Test all the classes in the relation package."""
+    def setUp(self):
+        self.demo = DemoData()
+    
+    def test_aunt(self):
+        aunt = relations.aunt.Aunt()
+        self.assertEqual(
+            aunt.get_aunt('Satvy', "Maternal aunt", self.demo.satvy_family, FEMALE),
+            ['Ambi', 'Lika'],
+            'Incorrect Aunt implementation')
+        self.assertEqual(
+            aunt.get_aunt('Drita', "Maternal aunt", self.demo.drita_family, FEMALE),
+            "Drita does not have own maternal aunt.",
+            'Incorrect Aunt implementation')
+    def test_brother_in_law(self):
+        brother_in_law = relations.BrotherInLaw()
+        self.assertEqual(
+            brother_in_law.get_relatives('Ambi', "Brother-in law", self.demo.chit_family),
+            ['Ish', 'Vich'],
+            'Incorrect Brother in law implementation')
+    
+    def test_brothers(self):
+        brothers = relations.Brothers()
+        self.assertEqual(
+            brothers.get_relatives('Ambi', "Brothers", self.demo.chit_family),
+            'Ambi does not have own brothers.',
+            'Incorrect Brothers implementation')
+    def test_children(self):
+        children = relations.Children()
+        self.assertEqual(
+            children.get_relatives('Shan', "Children", self.demo.shan_family),
+            ['Ish', 'Chit', 'Vich', 'Satya'],
+            'Incorrect Children implementation')
+    
+    def test_cousins(self):
+        obj = relations.Cousins()
+        self.assertEqual(
+            obj.get_relatives('Satvy', "Cousins", self.demo.satvy_family),
+            ['Drita', 'Vrita', 'Vila', 'Chika', 'Savya', 'Saayan'],
+            'Incorrect Cousin implementation')
+    
+    def test_daughters(self):
+        obj = relations.Daughters()
+        self.assertEqual(
+            obj.get_relatives('Shan', "Daughters", self.demo.shan_family),
+            ['Satya'],
+            'Incorrect Daughters implementation')
+    
+    def test_father(self):
+        obj = relations.Father()
+        self.assertEqual(
+            obj.get_relatives('Vich', "Father", self.demo.vich_family),
+            'Shan',
+            'Incorrect Father implementation')
+        self.assertEqual(
+            obj.get_relatives('Shan', "Father", self.demo.shan_family),
+            'Shan does not have own father.',
+            'Incorrect Father implementation')
+    
+    def test_grand_daughters(self):
+        obj = relations.GrandDaughter()
+        self.assertEqual(
+            obj.get_relatives('Shan', "Grand daughters", self.demo.shan_family),
+            ['Chika', 'Satvy'],
+            'Incorrect Grand Daughter implementation')
+    
+    def test_maternal_aunt(self):
+        obj = relations.MaternalAunt()
+        self.assertEqual(
+            obj.get_relatives('Drita', "Maternal aunt", self.demo.drita_family),
+            'Drita does not have own maternal aunt.',
+            'Incorrect MaternalAunt implementation')
+    
+    def test_mother(self):
+        obj = relations.Mother()
+        self.assertEqual(
+            obj.get_relatives('Drita', "Mother", self.demo.drita_family),
+            "Ambi",
+            'Incorrect Mother implementation')
+    
+    def test_paternal_aunt(self):
+        obj = relations.PaternalAunt()
+        self.assertEqual(
+            obj.get_relatives('Drita', "Paternal aunt", self.demo.drita_family),
+            ['Lika', 'Satya'],
+            'Incorrect Paternal aunt implementation')
+    
+    def test_sisters(self):
+        obj = relations.Sisters()
+        self.assertEqual(
+            obj.get_relatives('Ish', "Sisters", self.demo.ish_family),
+            ['Satya'],
+            'Incorrect Sisters implementation')
+    
+    def test_sons(self):
+        obj = relations.Sons()
+        self.assertEqual(
+            obj.get_relatives('Shan', "Sons", self.demo.shan_family),
+            ['Ish', 'Chit', 'Vich'],
+            'Incorrect Sons implementation')
