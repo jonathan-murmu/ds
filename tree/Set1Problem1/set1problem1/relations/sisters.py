@@ -1,5 +1,5 @@
 from .relation import Relation
-from constants import FEMALE
+from ..constants import FEMALE
 from .sibling import Sibling
 
 

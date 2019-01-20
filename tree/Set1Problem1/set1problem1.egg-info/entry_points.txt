@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        set1problem1=set1problem1.driver:main
+    

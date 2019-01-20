@@ -1,7 +1,7 @@
-from constants import FEMALE, MALE
-from family import Family
-from generation import Generation
-from person import Person
+from .constants import FEMALE, MALE
+from .family import Family
+from .generation import Generation
+from .person import Person
 
 class DemoData(object):
   """Creates demo data based on Shan-Anga generation hierarchy."""

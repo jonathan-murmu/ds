@@ -1,5 +1,5 @@
 from .relation import Relation
-from constants import FEMALE, MALE
+from ..constants import FEMALE, MALE
 
 
 class Children(Relation):

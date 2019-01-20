@@ -1,8 +1,24 @@
 from collections import deque
 
-import constants
-from demo_data import DemoData
-from person import Person
+from .constants import (
+    PATERNAL_UNCLE,
+    MATERNAL_UNCLE,
+    PATERNAL_AUNT,
+    MATERNAL_AUNT,
+    SISTER_IN_LAW,
+    BROTHER_IN_LAW,
+    COUSINS,
+    FATHER,
+    MOTHER,
+    CHILDREN,
+    SONS,
+    DAUGHTERS,
+    BROTHERS,
+    SISTERS,
+    GRAND_DAUGHTER
+)
+from .demo_data import DemoData
+from .person import Person
 
 
 class Choice(object):
@@ -45,21 +61,21 @@ class Generation(object):
     """The reciever to execute the commands."""
     def __init__(self):
       self.relation = {
-            "1": constants.PATERNAL_UNCLE,
-            "2": constants.MATERNAL_UNCLE,
-            "3": constants.PATERNAL_AUNT,
-            "4": constants.MATERNAL_AUNT,
-            "5": constants.SISTER_IN_LAW,
-            "6": constants.BROTHER_IN_LAW,
-            "7": constants.COUSINS,
-            "8": constants.FATHER,
-            "9": constants.MOTHER,
-            "10": constants.CHILDREN,
-            "11": constants.SONS,
-            "12": constants.DAUGHTERS,
-            "13": constants.BROTHERS,
-            "14": constants.SISTERS,
-            "15": constants.GRAND_DAUGHTER
+            "1": PATERNAL_UNCLE,
+            "2": MATERNAL_UNCLE,
+            "3": PATERNAL_AUNT,
+            "4": MATERNAL_AUNT,
+            "5": SISTER_IN_LAW,
+            "6": BROTHER_IN_LAW,
+            "7": COUSINS,
+            "8": FATHER,
+            "9": MOTHER,
+            "10": CHILDREN,
+            "11": SONS,
+            "12": DAUGHTERS,
+            "13": BROTHERS,
+            "14": SISTERS,
+            "15": GRAND_DAUGHTER
           }
 
     def create_generation(self):
@@ -116,11 +132,14 @@ class Driver(object):
             print("Wrong Choice!")
         return True
 
+def main():
+    driver = Driver()
+    status = True
+    while(status):
+        driver.show_main_menu()
+        cmd = input()
+        status = driver.press(cmd)
+
 if __name__ == '__main__':
-  driver = Driver()
-  status = True
-  while(status):
-    driver.show_main_menu()
-    cmd = input()
-    status = driver.press(cmd)
+    main()
 

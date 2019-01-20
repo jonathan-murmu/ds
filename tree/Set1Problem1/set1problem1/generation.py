@@ -1,6 +1,6 @@
-import constants
-from family import PERSON_ADDRESS
-from relationfactory import RelationFactory
+from . import constants
+from .family import PERSON_ADDRESS
+from .relationfactory import RelationFactory
 
 
 class Generation(object):

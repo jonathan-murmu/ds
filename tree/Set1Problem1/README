@@ -7,15 +7,18 @@ Dependency:
 
 ###############################################################################
 Executing The Program.
-1. Open Terminal and change directory to the "family" folder. (e.g. cd family)
-2. Run the below command to execute the CLI program:
-   python3 driver.py
+1. Open Terminal and change directory to the "Set1Problem1" folder. (e.g. cd Set1Problem1)
+2. Make sure you are inside a virtual env.
+3. Install the CLI app by running the install.sh file
+   ./install.sh
+3. Run the below command to execute the CLI program:
+   set1problem1
 
 3. Press 'x' to exit the CLI program.
 
 ###############################################################################
 Testing The Program.
 - Run the below command to run tests
-  python3 -m unittest tests.py
+  python setup.py test
 
 ###############################################################################

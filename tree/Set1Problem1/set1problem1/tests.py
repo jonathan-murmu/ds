@@ -1,10 +1,10 @@
 import unittest
 
-from constants import FEMALE, MALE
-from demo_data import DemoData
-from family import Family
-from generation import Generation
-from person import Person
+from .constants import FEMALE, MALE
+from .demo_data import DemoData
+from .family import Family
+from .generation import Generation
+from .person import Person
 
 
 class TestGeneration(unittest.TestCase):

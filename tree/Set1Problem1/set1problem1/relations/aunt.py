@@ -1,4 +1,4 @@
-from constants import FEMALE
+from ..constants import FEMALE
 
 class Aunt(object):
     """Get uncle."""

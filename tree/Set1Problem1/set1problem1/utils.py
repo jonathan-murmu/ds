@@ -1,6 +1,6 @@
 import collections
 
-from constants import FEMALE, MALE
+from .constants import FEMALE, MALE
 
 
 def is_main_member(func):

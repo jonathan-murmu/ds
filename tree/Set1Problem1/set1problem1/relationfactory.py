@@ -1,5 +1,5 @@
 from inspect import getmembers,  isclass, isabstract
-import relations
+from . import relations
 
 class RelationFactory(object):
     relation = {}  # Key = relation name, Value = class for the relation

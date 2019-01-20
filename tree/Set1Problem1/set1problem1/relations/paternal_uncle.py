@@ -1,10 +1,10 @@
 from .relation import Relation
-from constants import MALE
-from .aunt import Aunt
+from ..constants import MALE
+from .uncle import Uncle
 
 
-class PaternalAunt(Relation, Aunt):
+class PaternalUncle(Relation, Uncle):
       """Get the children of the main member in the family."""
       @Relation.is_main_member
       def get_relatives(self, person_name, relation, family):
-            return self.get_aunt(person_name, relation, family, MALE)
+            return self.get_uncle(person_name, relation, family, MALE)
