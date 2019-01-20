@@ -16,7 +16,7 @@ setup(
     description = ("Family Set Problem 1. Find the relatives in the King Shan and Quen Anga's family."),
     url = "",
     packages=['Set1Problem1',],
-    long_description=read('README'),
+    long_description=read('README.txt'),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Topic :: Utilities",
