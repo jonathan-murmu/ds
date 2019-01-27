@@ -1,5 +1,6 @@
 import datetime
 from datetime import timedelta
+from constants import START_TIME_ERROR, END_TIME_ERROR
 
 def input_reader(inp):
     """Generator to read the input week configuration one at a time.
@@ -18,6 +19,25 @@ def input_reader(inp):
     """
     for index, daytime in enumerate(inp):
         for time in daytime:
+            # validate
+            try:
+                start_hr = int(time['start_time'].split(':')[0])
+                start_min = int(time['start_time'].split(':')[1])
+
+                if not (start_hr >= 0 and start_hr <= 23 and start_min >=0 and start_min <= 59):
+                    raise ValueError(START_TIME_ERROR)
+            except:
+                raise ValueError(START_TIME_ERROR)
+            
+            try:
+                end_hr = int(time['end_time'].split(':')[0])
+                end_min = int(time['end_time'].split(':')[1])
+
+                if not (end_hr >= 0 and end_hr <= 23 and end_min >=0 and end_min <= 59):
+                    raise ValueError(END_TIME_ERROR)
+            except:
+                raise ValueError(END_TIME_ERROR)
+
             # Start the week from Sunday, i.e. Sunday as 0, Monday as 1, etc
             if index == 7:
                 day = 0
@@ -44,20 +64,20 @@ def get_new_time(current_time, current_day, inp_day, week_days, time):
     """Get the new time.
 
     Convert the input week config's start/end time to correct datetime format.
-    If the current time is datetime.datetime(2017, 1, 1, 20, 30), i.e. Sunday
+    If the current time is - datetime.datetime(2017, 1, 1, 20, 30), i.e. Sunday
     And if the input week config's start_time is 6:00 for Monday(i.e. weekday 1)
     
     First correct the time, then correct the date. To do that, get a 
     datetime object from current_time's date and input's start/end time.
-    So, now the new_time becomes datetime.datetime(2017, 1, 1, 06, 00) 
+    So, now the new_time becomes - datetime.datetime(2017, 1, 1, 06, 00) 
     i.e. correct time but still Sunday's date
     
-    Next, update the date, 1st set the date to current weeks Sundays 
-    date (new_time-current_week_day) and then add the input week day to it plus 
+    Next, update the date, 1st set the date to current weeks Sunday's 
+    date (new_time - current_week_day) and then add the input's week day to it plus 
     the week_days(0 if 1st week, 7 if 2nd week, and so on).
     The formula is:
         new_time = (new_time-current_week_day) + input_week_day + week_days(0 if 1st week 7 if 2nd week, and so on)
-    So, now the new_time becomes datetime.datetime(2017, 1, 2, 06, 00)
+    So, now the new_time becomes - datetime.datetime(2017, 1, 2, 06, 00)
     which is correctly updated to Monday's date
     
     Finally return the datetime object in proper string format

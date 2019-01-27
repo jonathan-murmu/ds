@@ -1,5 +1,7 @@
 import datetime
 
+from constants import START_TIME_ERROR, END_TIME_ERROR
+
 
 INP_1 = [
     [  # Monday
@@ -157,3 +159,17 @@ SAMPLE_INPUT_OUTPUTS_3 = [
 # Time of run falls in between the week and in between of the input times
 time_of_run_3 = datetime.datetime(2017, 1, 3, 6, 15)  # Tuesday
 
+INP_4 = [
+    [
+        {"start_time": "25:00", "end_time": "06:30"},
+    ], [], [], [], [], [], []
+]
+INP_5 = [
+    [
+        {"start_time": "14:00", "end_time": "06:61"},
+    ], [], [], [], [], [], []
+]
+SAMPLE_INPUT_OUTPUTS_4 = [
+    (INP_4, ValueError, START_TIME_ERROR),
+    (INP_5, ValueError, END_TIME_ERROR)
+]
