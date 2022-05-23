@@ -25,6 +25,7 @@ Constraints:
 -231 <= nums[i] <= 231 - 1
 0 <= k <= 105
 """
+from typing import List
 
 
 class Solution:
@@ -32,23 +33,47 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        #         temp = 0
-        #         length = len(nums)
+        # find the actual rotation or slipting distance.
+        length = len(nums)
+        if k > length:
+            k = k % length
+        elif k == length:
+            return
 
-        #         if k != length:
-        #             for rounds in range(k):
-        #                 for i in range(length-2, -1, -1):
-        #                     if i == length-2:
-        #                         temp = nums[i+1]
-        #                     nums[i+1] = nums[i]
+        # reverse the entire array
+        self.reverse(nums, i=0, j=length - 1)
 
-        #                     if i == 0:
-        #                         nums[0] = temp
-        n = len(nums)
-        k = k % n
-        nums[:] = nums[n - k:] + nums[:n - k]
+        # reverse the 1st half
+        self.reverse(nums, i=0, j=k - 1)
+
+        # reverse the 2n half
+        self.reverse(nums, i=k, j=length - 1)
+
+    def reverse(self, nums, i=None, j=None):
+        while (i < j):
+            temp = nums[j]
+            nums[j] = nums[i]
+            nums[i] = temp
+
+            i += 1
+            j -= 1
 
 
+#         temp = 0
+#         length = len(nums)
+
+#         if k != length:
+#             for rounds in range(k):
+#                 for i in range(length-2, -1, -1):
+#                     if i == length-2:
+#                         temp = nums[i+1]
+#                     nums[i+1] = nums[i]
+
+#                     if i == 0:
+#                         nums[0] = temp
+# n = len(nums)
+# k = k % n
+# nums[:] = nums[n-k:] + nums[:n-k]
 
 
 obj = Solution()
