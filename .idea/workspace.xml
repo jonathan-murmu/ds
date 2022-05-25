@@ -13,28 +13,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/1089 - Duplicate Zeros/dup_zero.py">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/350 - Intersection of Two Arrays II/intersect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/189 - Rotate Array/rotate_array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="80" column="5" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/136 - Single Number/single_number.py">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="396">
+              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -63,10 +54,12 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/1089 - Duplicate Zeros/dup_zero.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/189 - Rotate Array/rotate_array.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/136 - Single Number/single_number.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/350 - Intersection of Two Arrays II/intersect.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -75,6 +68,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,6 +99,22 @@
               <item name="ds" type="462c0819:PsiDirectoryNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="66 - Plus One" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="350 - Intersection of Two Arrays II" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -119,7 +129,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +236,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -340,7 +349,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/189 - Rotate Array/rotate_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="1200">
           <caret line="80" column="5" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="10" />
         </state>
       </provider>
@@ -348,7 +357,21 @@
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/136 - Single Number/single_number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/350 - Intersection of Two Arrays II/intersect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
         </state>
       </provider>
     </entry>
