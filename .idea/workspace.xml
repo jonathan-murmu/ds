@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,15 +11,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/48 - Rotate Image/rotate_image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/237 - Delete Node in a Linked List/delete_node.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -30,11 +19,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/206 - Reverse Linked List/reverse_list.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="750">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -136,6 +134,7 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/48 - Rotate Image/rotate_image.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/237 - Delete Node in a Linked List/delete_node.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/206 - Reverse Linked List/reverse_list.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" />
       </list>
     </option>
   </component>
@@ -540,8 +539,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/206 - Reverse Linked List/reverse_list.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
