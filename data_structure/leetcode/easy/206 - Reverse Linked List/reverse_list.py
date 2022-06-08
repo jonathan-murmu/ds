@@ -31,28 +31,37 @@ from typing import Optional
 
 
 # Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # set prev to None
-        prev = None
+        rev = None
+        slow = fast = head
+        while fast:
+            fast = fast.next
+            # 1.update rev 2. update rev's next 3. update slow by one
+            rev, rev.next, slow = slow, rev, slow.next
+        return rev
 
-        # iterate till last
-        while head:
-            # set cur to head, i.e. move cur one step
-            cur = head
-            # move head to next node, i.e. move head one step
-            head = head.next  # now head and cur both point to next node
+#         # set prev to None
+#         prev = None
 
-            # update cur to point to prev
-            cur.next = prev
+#         # iterate till last
+#         while head:
+#             # set cur to head, i.e. move cur one step
+#             cur = head
+#             # move head to next node, i.e. move head one step
+#             head = head.next  # now head and cur both point to next node
 
-            # move prev to next node, i.e. move prev one step.
-            prev = cur
+#             # update cur to point to prev
+#             cur.next = prev
 
-        return prev
+#             # move prev to next node, i.e. move prev one step.
+#             prev = cur
+
+#         return prev
+
 
