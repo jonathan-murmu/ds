@@ -20,8 +20,8 @@ class Solution:
 #         rev = 0
 
 #         while x>rev:
-#             rev = rev * 10 + x%10
-#             x = x // 10
+#             rev = rev * 10 + x%10  # % gives the last digit
+#             x = x // 10  # // removes the last digit
 
 #         if rev == x or rev//10 == x:
 #             return True

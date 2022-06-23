@@ -33,14 +33,18 @@ Both list1 and list2 are sorted in non-decreasing order.
 
 
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+from typing import Optional
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
 
-        # initialize head = cur = Node
+        # initialize head = cur = Blank Node
         head = cur = ListNode()
 
         # iterate until any one is None
@@ -69,4 +73,17 @@ class Solution:
         return head.next
 
 
+def create_linked_list(arr):
+    next = None
+    list = []
+    for i in arr:
+        next = ListNode(i, next)
+        list.append(next)
+
+    return list
+
+obj = Solution()
+list1 = [2,4,5,6,8]
+list2 =  [1,3,5]
+obj.mergeTwoLists(list1, list2)
 
