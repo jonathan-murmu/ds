@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,15 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/344 - Reverse String/reverse_string_recur.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/24 - Swap Nodes in Pairs/swap_pairs_recur.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,6 +29,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/94 - Binary Tree Inorder Traversal/inorder_traversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/144 - Binary Tree Preorder Traversal/preorder_traversal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
@@ -145,6 +143,7 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/24 - Swap Nodes in Pairs/swap_pairs_recur.py" />
         <option value="$PROJECT_DIR$/design patterns/dependancy_injection.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/144 - Binary Tree Preorder Traversal/preorder_traversal.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/94 - Binary Tree Inorder Traversal/inorder_traversal.py" />
       </list>
     </option>
   </component>
@@ -584,6 +583,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/144 - Binary Tree Preorder Traversal/preorder_traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/design patterns/dependancy_injection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -591,10 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/144 - Binary Tree Preorder Traversal/preorder_traversal.py">
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/94 - Binary Tree Inorder Traversal/inorder_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="750">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
