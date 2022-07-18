@@ -44,4 +44,5 @@ class Solution:
             if nums[i] in seen:
                 return [seen[nums[i]], i]
             else:
+                # seen[expected value] = index
                 seen[target - nums[i]] = i

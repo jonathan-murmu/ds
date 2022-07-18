@@ -45,8 +45,9 @@ def max_sub_array(nums):
     # # kadane Algo
     cur_max, max_till_now = 0, -inf
     for c in nums:
+        # cur_max = maximum of cur no and cur_max+cur_no
         cur_max = max(c, cur_max + c)
-        max_till_now = max(max_till_now, cur_max)
+        max_till_now = max(max_till_now, cur_max)  # which is the max(max_till_now) amoung the cur maxs
     return max_till_now
 
 nums = [-2,1,-3,4,-1,2,1,-5,4]

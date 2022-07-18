@@ -44,6 +44,7 @@ class ListNode:
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
 
+        # Create a new blank node
         # initialize head = cur = Blank Node
         head = cur = ListNode()
 
@@ -53,6 +54,8 @@ class Solution:
             if list1.val <= list2.val:
                 # cur.next = smaller
                 cur.next = list1
+                # cur = smaller
+                # move smaller by one
                 list1, cur = list1.next, list1
                 # cur = list1
                 # list1 = list1.next

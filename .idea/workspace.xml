@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,46 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/94 - Binary Tree Inorder Traversal/inorder_traversal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/145 - Binary Tree Postorder Traversal/postorder_traversal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/200 - Number of Islands/num_island.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/144 - Binary Tree Preorder Traversal/preorder_traversal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="465">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -60,44 +28,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/27 - Remove Element/remove_element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/122 - Best Time to Buy and Sell Stock II/max_profit.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/36 - Valid Sudoku/valid_sudoku.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/350 - Intersection of Two Arrays II/intersect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/136 - Single Number/single_number.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="394">
+              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -128,7 +96,6 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/350 - Intersection of Two Arrays II/intersect.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/283 - Move Zeroes/move_zero.py" />
-        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/122 - Best Time to Buy and Sell Stock II/max_profit.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/dummy.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/36 - Valid Sudoku/valid_sudoku.py" />
@@ -139,8 +106,6 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/141 - Linked List Cycle/has_cycle.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/88 - Merge Sorted Array/merge.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/278 - First Bad Version/first_bad_version.py" />
-        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py" />
-        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/344 - Reverse String/reverse_string_recur.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/24 - Swap Nodes in Pairs/swap_pairs_recur.py" />
         <option value="$PROJECT_DIR$/design patterns/dependancy_injection.py" />
@@ -148,6 +113,10 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/94 - Binary Tree Inorder Traversal/inorder_traversal.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/145 - Binary Tree Postorder Traversal/postorder_traversal.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/200 - Number of Islands/num_island.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py" />
       </list>
     </option>
   </component>
@@ -190,6 +159,54 @@
               <item name="ds" type="462c0819:PsiDirectoryNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - Two Sum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="9 - Palindrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="21 - Merge Two Sorted Lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="27 - Remove Element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="53 - Maximum Subarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="66 - Plus One" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dependancy_injection">
+  <component name="RunManager" selected="Python.palin">
     <configuration name="dependancy_injection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.palin" />
         <item itemvalue="Python.dependancy_injection" />
         <item itemvalue="Python.merge_list" />
         <item itemvalue="Python.rotate_array" />
         <item itemvalue="Python.dup_zero" />
-        <item itemvalue="Python.palin" />
       </list>
     </recent_temporary>
   </component>
@@ -371,25 +388,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,18 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/27 - Remove Element/remove_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/2114 - Maximum Number of Words Found in Sentences/max_words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -451,13 +437,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/dummy.py" />
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/189 - Rotate Array/rotate_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -528,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/344 - Reverse String/reverse_string.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -566,24 +538,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/145 - Binary Tree Postorder Traversal/postorder_traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/144 - Binary Tree Preorder Traversal/preorder_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -615,17 +580,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/145 - Binary Tree Postorder Traversal/postorder_traversal.py">
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/200 - Number of Islands/num_island.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="182">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/200 - Number of Islands/num_island.py">
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="465">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/27 - Remove Element/remove_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
         </state>
       </provider>
     </entry>
