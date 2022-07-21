@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/1 - Two Sum/two_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +51,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="390">
               <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="394">
-              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/145 - Binary Tree Postorder Traversal/postorder_traversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/226 - Invert Binary Tree/invert_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -117,10 +131,11 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/9 - Palindrome/palin.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/21 - Merge Two Sorted Lists/merge_list.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/226 - Invert Binary Tree/invert_tree.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -129,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +223,14 @@
               <item name="ds" type="462c0819:PsiDirectoryNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="145 - Binary Tree Postorder Traversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,7 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/145 - Binary Tree Postorder Traversal/postorder_traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/144 - Binary Tree Preorder Traversal/preorder_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -617,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="390">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
@@ -625,7 +641,21 @@
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/66 - Plus One/plus_one.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
-          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/145 - Binary Tree Postorder Traversal/postorder_traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/226 - Invert Binary Tree/invert_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
