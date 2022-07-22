@@ -31,40 +31,49 @@ The number of nodes in the tree is in the range [0, 104].
 #         self.val = val
 #         self.left = left
 #         self.right = right
-import collections
-
-
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        # initialize the queue
-        queue = collections.deque()
+        return self.get_level(root, 1)
 
-        # initialize level to 0
-        level = 0
-        if root:
-            # initialize queue to (node, 1st level)
-            queue.append((root, 1))  # (node, level)
+    def get_level(self, node, level):
+        if node == None:
+            return level - 1
 
-        # until queue is empty
-        while queue:
-            # dequeue element from queue
-            cur = queue.popleft()
+        return max(
+            self.get_level(node.left, level + 1),
+            self.get_level(node.right, level + 1)
+        )
 
-            # extract the node and level
-            cur_node = cur[0]
-            cur_level = cur[1]  # level
+        #         # initialize the queue
+        #         queue = collections.deque()
 
-            # if current level is more the max_level
-            # update the max level
-            if cur_level > level:
-                level += 1
+        #         # initialize level to 0
+        #         level = 0
+        #         if root:
+        #             # initialize queue to (node, 1st level)
+        #             queue.append( (root, 1))  # (node, level)
 
-            # go to next level.
-            if cur_node.left:
-                queue.append((cur_node.left, level + 1))
+        #         # until queue is empty
+        #         while queue:
+        #             # dequeue element from queue
+        #             cur = queue.popleft()
 
-            if cur_node.right:
-                queue.append((cur_node.right, level + 1))
+        #             # extract the node and level
+        #             cur_node = cur[0]
+        #             cur_level = cur[1]  # level
+
+        #             # if current level is more the max_level
+        #             # update the max level
+        #             if cur_level > level:
+        #                 level += 1
+
+        #             # go to next level.
+        #             if cur_node.left:
+        #                 queue.append( (cur_node.left, level+1) )
+
+        #             if cur_node.right:
+        #                 queue.append( (cur_node.right, level+1))
 
         return level
+
 
