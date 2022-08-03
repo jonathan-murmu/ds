@@ -50,10 +50,16 @@ class Solution:
         if not p or not q:
             return False
 
-        # if values dont match
-        if p.val != q.val:
+        # if both vals are equal and both sides of both tree equal
+        if p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right):
+            return True
+        else:
             return False
 
-        # check for both the sides.
-        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+        # # if values dont match
+        # if p.val != q.val:
+        #     return False
+        #
+        # # check for both the sides.
+        # return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
