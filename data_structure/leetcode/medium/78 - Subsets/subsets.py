@@ -33,14 +33,15 @@ class Solution(object):
         return self.res
 
     def backtrack(self, index, subset):
+        # looping the index this till the end.
         if index >= len(self.nums):
             self.res.append(subset[:])
             return
 
-        # decision to include nums[index]
+        # decision to include nums[index], do so by pushing()
         subset.append(self.nums[index])
         self.backtrack(index + 1, subset)
 
-        # decision to NOT include nums[index]
+        # decision to NOT include nums[index], do so by popping()
         subset.pop()
         self.backtrack(index + 1, subset)
