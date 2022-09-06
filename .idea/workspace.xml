@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +19,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/78 - Subsets/subsets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="360">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/235 - Lowest Common Ancestor of a Binary Search Tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -45,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/2114 - Maximum Number of Words Found in Sentences/max_words.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/1089 - Duplicate Zeros/dup_zero.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/189 - Rotate Array/rotate_array.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/136 - Single Number/single_number.py" />
@@ -96,6 +102,7 @@
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/77 - Combinations/combinations.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/24 - Swap Nodes in Pairs/swap_pairs_recur.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/medium/78 - Subsets/subsets.py" />
+        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/235 - Lowest Common Ancestor of a Binary Search Tree.py" />
       </list>
     </option>
   </component>
@@ -155,6 +162,14 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="77 - Combinations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="78 - Subsets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,13 +362,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/206 - Reverse Linked List/reverse_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/234 - Palindrome Linked List/is_palin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -701,8 +709,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/medium/78 - Subsets/subsets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/leetcode/easy/235 - Lowest Common Ancestor of a Binary Search Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
