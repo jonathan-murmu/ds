@@ -39,10 +39,10 @@ class Solution:
 
     def levelOrder(self, root: Optional[TreeNode], level=1) -> List[List[int]]:
         if root:
-            if level < len(self.res):
+            if level < len(self.res):  # this means existing level,
                 self.res[level].append(root.val)  # for left view comment this line
                 pass
-            else:
+            else:  # if level is more that result array, that means a new level found
                 self.res.append([root.val])
                 pass
 
