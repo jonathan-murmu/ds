@@ -45,5 +45,5 @@ class Solution(object):
 
         for i in range(start, self.n + 1):  # +1 to include the last element
             comb.append(i)
-            self.backtrack(i + 1, comb)
+            self.backtrack(i + 1, comb)  # continue to call recursively and add value, untill we have added k values.
             comb.pop()
