@@ -51,9 +51,11 @@ def merge_sort(A, l, r):
         mid = (l+r)//2
         print(l,mid,r)
 
+        # divide both left and right side
         merge_sort(A, l, mid)
         merge_sort(A, mid+1, r)
 
+        # conquer - sort and merge
         merge(A, l, mid, r)
 
 arr = [12,11,13,5,6,7]

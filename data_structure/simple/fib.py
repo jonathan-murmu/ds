@@ -5,9 +5,9 @@ def fib(n):
     sum_of_digits = 0
     series = []
     while n > 0:
-        series.append(sum_of_digits)
-        a, b = b, sum_of_digits
-        sum_of_digits = a + b
+        series.append(sum_of_digits)  # print
+        a, b = b, sum_of_digits  # swap
+        sum_of_digits = a + b  # sum
 
         n -= 1
 
