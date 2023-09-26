@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="564743b2-67ed-4b3c-ac06-22c955483e0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/simple/fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/simple/fib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/simple/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/simple/merge_sort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,24 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/simple/string_palindrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/simple/merge_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/simple/binary_search.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,16 +62,34 @@
         <entry file="file://$PROJECT_DIR$/data_structure/tution/warmup/maximum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure/tution/warmup/2max.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/companies/deliotte/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_structure/tution/warmup/2max.py">
+        <entry file="file://$PROJECT_DIR$/data_structure/tution/warmup/reverse_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -111,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data_structure/leetcode/easy/53 - Maximum Subarray/max_subarray.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/226 - Invert Binary Tree/invert_tree.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/104 - Maximum Depth of Binary Tree/max_depth.py" />
         <option value="$PROJECT_DIR$/data_structure/leetcode/easy/100 - Same Tree/is_same_tree.py" />
@@ -162,10 +159,11 @@
         <option value="$PROJECT_DIR$/data_structure/simple/merge_sort.py" />
         <option value="$PROJECT_DIR$/data_structure/simple/maximum.py" />
         <option value="$PROJECT_DIR$/data_structure/tution/warmup/2max.py" />
+        <option value="$PROJECT_DIR$/data_structure/tution/warmup/reverse_string.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -180,6 +178,17 @@
             <path>
               <item name="ds" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="companies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="companies" type="462c0819:PsiDirectoryNode" />
+              <item name="deliotte" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ds" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2max">
+  <component name="RunManager" selected="Python.reverse_string">
     <configuration name="2max" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,27 +268,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ds" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structure/simple" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structure/simple/fib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="maximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,6 +281,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structure/tution/warmup/maximum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structure/tution/warmup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structure/tution/warmup/reverse_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverse_string" />
         <item itemvalue="Python.2max" />
         <item itemvalue="Python.maximum" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.task1" />
-        <item itemvalue="Python.fib" />
       </list>
     </recent_temporary>
   </component>
@@ -420,13 +429,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design patterns/Observer/forecast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/leetcode/hard/42 - Trapping Rain Water/trapping_water.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -680,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/companies/deliotte/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/companies/abnormal_security/input_files/google_user.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -748,14 +743,28 @@
     <entry file="file://$PROJECT_DIR$/data_structure/tution/warmup/maximum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/tution/warmup/2max.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies/deliotte/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure/tution/warmup/reverse_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
